@@ -31,3 +31,4 @@ STYLE-GUIDE.md
 webpack.config.js
 .vs/
 /server/data.txt
+package-lock.json
