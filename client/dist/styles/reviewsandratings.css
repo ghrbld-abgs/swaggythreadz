@@ -1,0 +1,134 @@
+#module-rnr {
+    color: rgba(0, 0, 0, .65);
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#rnrTitle {
+    justify-content: left;
+    font-size: 1.25em;
+    padding-top: 1em;
+    padding-left: 0;
+}
+
+#ratings {
+    padding: 0;
+}
+
+#rnrFilter {
+    padding-top: .75em;
+}
+
+#reviews {
+    font-size: 1.25em;
+    background-color: white;
+    max-height: 95vh;
+}
+#reviewlist {
+    max-height: 80vh;
+    overflow-y: scroll;
+    overflow: auto;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+    #reviewlist::-webkit-scrollbar {
+        width: 0 !important
+    }
+
+#controls {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1.25em 0em;
+}
+
+.filter .dropdown {
+    margin-left: .1em;
+    border: none;
+    border-bottom: .01em solid black;
+}
+
+#review {
+    background-color: white;
+    margin-top: .75em;
+    padding-bottom: .75em;
+    border-bottom: .01em solid black;
+}
+#reviewphotos {
+    display: flex;
+    justify-content: flex-start;
+}
+.reviewphoto {
+    max-height:3em;
+    max-width: 3em;
+
+}
+
+#reviewmodal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.leftjustify {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.leftpadding {
+    padding-left: .75em;
+}
+
+.leftmargin {
+    margin-left: 1.25em;
+}
+
+.review_rating {
+    padding: .3em 0em;
+}
+
+.review_title {
+    font-weight: bold;
+    padding: .6em 0em;
+}
+
+.review_userinfo {
+    font-size: .65em;
+}
+
+.review_content {
+    font-size: .75em;
+}
+
+.review_feedback {
+    padding: .2em 0em;
+    font-size: .65em;
+}
+
+.reviewlinks {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bignumber {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.ratingcontainer {
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+#characteristics {
+    justify-content: flex-start;
+}
+
+#avgrating {
+    display: flex;
+}
+
+#avgstars {
+    padding-left: .25em;
+    padding-top: 1.25em;
+}
